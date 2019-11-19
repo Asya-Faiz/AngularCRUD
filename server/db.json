@@ -4,6 +4,31 @@
       "id": 1,
       "title": "Read Angular 5 blog",
       "text": "Shall do at 6 pm"
+    },
+    {
+      "id": 2,
+      "title": "Go through Angular videos",
+      "text": "Complete by Wednesday(20/11/2019)"
+    },
+    {
+      "id": 3,
+      "title": "Submit Assignment",
+      "text": "Angular Keep level 1"
+    },
+    {
+      "title": "Read Angular 5 blog",
+      "text": "Shall do at 6 pm",
+      "id": 4
+    },
+    {
+      "title": "Read Angular 5 blog",
+      "text": "Shall do at 6 pm",
+      "id": 5
+    },
+    {
+      "title": "Read Angular 5 blog",
+      "text": "Shall do at 6 pm",
+      "id": 6
     }
   ]
 }

@@ -1,6 +1,34 @@
 <!-- HeaderComponent to be displayed as part of AppComponent -->
 <app-header></app-header>
 
+<!-- Exapnsion Panel for taking Note -->
+<mat-expansion-panel  class="note_expansion_panel">
+    <mat-expansion-panel-header>
+        <mat-panel-title>Take a note</mat-panel-title>
+    </mat-expansion-panel-header>
+
+    <div class="panel_input_fields">
+        <mat-form-field>
+            <input matInput name="title" placeholder="Enter note title" [(ngModel)]="note.title">
+        </mat-form-field>
+
+        <mat-form-field>
+            <textarea matInput name="text" placeholder="Enter note" [(ngModel)]="note.text"></textarea>
+        </mat-form-field>
+    </div>
+
+    <div class="note_done">
+        <button mat-button (click)="add()">Done</button>
+    </div>
+</mat-expansion-panel>
+
+<!-- Card section displaying the notes -->
+<div class=card_div>
+<mat-card class='cards' *ngFor="let each of note_array">  
+    <mat-card-title>{{each.title}}</mat-card-title>
+    <mat-card-content>{{each.text}}</mat-card-content>
+</mat-card>
+</div>
 <!-- Label to display any error messages -->
 <label class="error-message">{{ errMessage }}</label>
 
