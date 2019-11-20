@@ -11,6 +11,7 @@ import {MatInputModule} from '@angular/material/input';
 import {MatButtonModule} from '@angular/material/button';
 import {FormsModule} from '@angular/forms';
 import {MatCardModule} from '@angular/material/card';
+import {MatPaginatorModule} from '@angular/material/paginator';
 
 import {HttpClientModule} from '@angular/common/http';
 import { NotesService } from './notes.service';
@@ -30,7 +31,8 @@ import { NotesService } from './notes.service';
     MatButtonModule,
     FormsModule,
     MatCardModule,
-    HttpClientModule
+    HttpClientModule,
+    MatPaginatorModule
   ],
   providers: [NotesService ],
   bootstrap: [ AppComponent]

@@ -14,16 +14,27 @@
     justify-content: flex-end;
 }
 
+.card_btns{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
 .card_div{
     display: flex;
     flex-direction: row;
-    margin: 50px;
+    justify-content: space-evenly;
 }
 .cards{
-    width:10vw; 
-    margin:10px;
-    /* display: flex; */
-    /* flex-direction:;  */
+    -ms-word-break: break-all;
+    word-break: break-all;
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+    width:10em;
+    margin:2em; 
+    height:auto;
+    /* padding:auto; */
     margin-top:50px;
     border:1px solid black;
 }
